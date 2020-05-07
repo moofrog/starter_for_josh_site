@@ -5,9 +5,28 @@ body{
 
 .navbar{
     font-size: 0.875em;
+    margin-bottom:0px;
 }
 
-#{
+.navbar-nav li a:hover{
+    background-color:transparent;
+}
+
+.navbar-brand{
+    font-size:2.5em;
+    font-weight:bolder;
+    letter-spacing:-3px;
+}
+
+.navbar-toggle .icon-bar{
+    background-color:white;
+}
+
+.orange{
+    color:darkorange;
+}
+
+a{
     color:#a99c9c;
 }
 
@@ -20,21 +39,20 @@ a:hover{
 }
 
 .josh{
-    /* color:darkorange; */
     font-size: 2.5em;
 }
 
 .herobg{
-    background: url(images/header-bg.jpg);
+    background: url(images/header-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .herobg h1{
     font-family: 'Raleway', sans-serif;
-    float: none;
+    float: right;
     color: #ffff;
     width: 341px;
-    font-size: 6.1em;
+    font-size: 7.125em;
     letter-spacing: -10px;
     font-weight: 800;
     line-height: 75%;
@@ -72,7 +90,7 @@ a:hover{
 }
 
 .blocker{
-    width:140px;
+    width:133px;
     height: 10px;
     background-color: purple;
     margin:auto;
@@ -83,7 +101,7 @@ a:hover{
     background-color: #f5f5f5;
 }
 
-.article-title{
+.article-title h3{
     font-size: 2.0em;
     font-family: 'Raleway', sans-serif;
     font-weight:800;
@@ -98,19 +116,19 @@ h4{
 
 .date{
     font-size:0.8em;
-    letter-spacing:1px;
+    letter-spacing:2px;
 }
 
 .readmore{
     color:#a19ba6;
     font-size:0.9em;
-    margin-bottom:40px;
+    margin-bottom:30px;
 }
 
 footer{
     background-image:url(images/footer-bg.jpg);
     background-size:cover;
-    width::100%;
+    width:100%;
     background-position: center center;
 }
 

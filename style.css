@@ -1,0 +1,44 @@
+body{
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+.navbar{
+    font-size: 0.875em;
+}
+
+#{
+    color:#a99c9c;
+}
+
+a:hover{
+    color:#ed7d1e;
+}
+
+.nav > li > a:hover{
+    background-color: transparent;
+}
+
+.josh{
+    /* color:darkorange; */
+    font-size: 2.5em;
+}
+
+.herobg{
+    background: url(images/header-bg.jpg);
+    background-size: cover;
+}
+
+.herobg h1{
+    float: right;
+    color: #ffff;
+    width: 341px;
+    font-size: 6.1em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 75%;
+    margin-top: 140px;
+    text-align: right;
+    padding-bottom: 10%;
+    
+}

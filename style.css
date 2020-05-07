@@ -31,7 +31,7 @@ a:hover{
 
 .herobg h1{
     font-family: 'Raleway', sans-serif;
-    float: right;
+    float: none;
     color: #ffff;
     width: 341px;
     font-size: 6.1em;

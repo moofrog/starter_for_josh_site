@@ -86,4 +86,5 @@
         <div class="container">
             <h1>Games Design For the Future</h1>  
         </div>
-    </header><!-- no spaces after this cause it will break php>
+        <!-- no spaces after this cause it will break php-->
+    </header>

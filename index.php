@@ -27,8 +27,8 @@ wp_reset_query();?>
       <section class="container-fluid articlesbg"> <!-- main image can stretch to edge of page -->
           <div class="container"> <!-- holds content in middle of page -->
               <div class="row"> <!-- Gives access to all the bootstrap columns (the blue -->                                       <!-- lines you can see on the photoshop file for josh hw)-->
-                  <div class="text-center article-title">
-                    <h3>LATEST ARTICLES</h3>
+                  <div>
+                    <h3 class="text-center article-title wow bounceInUp"><?php the_field('titleforarticles'); ?></h3>
                   </div>
                   
                   <div class="col-md-4 article-cent"> <!-- column, medium size, 4 columns/rows? wide-->

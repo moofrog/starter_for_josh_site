@@ -42,7 +42,7 @@ $queried_post = get_post($post_id);?>
                   </div>
                   
                   <div class="col-md-4 article-cent">
-<?php $post_id = 1;
+<?php $post_id = 13;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
@@ -51,7 +51,7 @@ $queried_post = get_post($post_id);?>
                   </div>
                   
                   <div class="col-md-4 article-cent">
-<?php $post_id = 1;
+<?php $post_id = 15;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>

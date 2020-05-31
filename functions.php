@@ -29,21 +29,10 @@ if($args->list_item_class){$classes[] = $args->list_item_class;
 add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
  ?>
 
+
+/* removed animation scripting because php errors*/
+
 <?php
-add_action('wp_enqueue_scripts', 'sk_wow_init_in_footer');
-
-function sk_wow_init_in_footer(){
-    add_action('print_footer_scripts', 'wow_init');
-}
-
-function wow_init(){ ?>
-    <script type="text/javascript">
-       new WOW().init();
-    </script>
-
-<?php }
-
-<?php>
     if(get_field('headerbackgroundimage')){
         echo 'style="background-image:url('.get_field('headerbackgroundimage').')"';
     }

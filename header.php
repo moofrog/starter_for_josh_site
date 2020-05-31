@@ -72,7 +72,7 @@
             <!-- End Collapsible nav bar -->
 
 
-        <div class="container">
+        <div class="container animated fadeInRight">
             <h1>Games Design For the Future</h1>  
         </div>
         <!-- no spaces after this cause it will break php-->

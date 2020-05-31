@@ -9,7 +9,7 @@
 <article class="excerpts"> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
-	<div <?php post_class(); ?>>
+	<div <?php post_class(); ?> >
 		<h3 class="posttitle" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 
 		<div class="postcontent">

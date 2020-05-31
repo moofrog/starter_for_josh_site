@@ -12,5 +12,5 @@ function theme_add_bootstrap() {
 }
  
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
-//no spaces after
+add_theme_support('post-thumbnails');
 ?>

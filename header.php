@@ -43,7 +43,7 @@
   
   <body>
       
-    <header class="container-fluid herobg">
+    <header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
                 <!-- Collapsible nav bar -->
       <nav class="navbar">
         <div class="container-fluid">
@@ -73,7 +73,7 @@
 
 
         <div class="container animated fadeInRight">
-            <h1>Games Design For the Future</h1>  
+            <h1><?php the_field('maintagline'); ?></h1>  
         </div>
         <!-- no spaces after this cause it will break php-->
     </header>

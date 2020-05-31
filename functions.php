@@ -42,3 +42,9 @@ function wow_init(){ ?>
     </script>
 
 <?php }
+
+<?php>
+    if(get_field('headerbackgroundimage')){
+        echo 'style="background-image:url('.get_field('headerbackgroundimage').')"';
+    }
+?>

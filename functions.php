@@ -5,6 +5,7 @@ function theme_add_bootstrap() {
 	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css' );
     wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'test', get_stylesheet_directory_uri() . '/responsive.css' );
+    wp_enqueue_style( 'tester', get_stylesheet_directory_uri() . '/css/animate.min.css' );
     
 //javascript elements
     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(), null, false);

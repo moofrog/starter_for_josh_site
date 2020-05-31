@@ -58,20 +58,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">HOME</a></li>
-                    <!-- word doc said to add -->
-                    
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Page 1-1</a></li>
-                                <li><a href="#">Page 1-2</a></li>
-                                <li><a href="#">Page 1-3</a></li>
-                            </ul>
-                        </li>
-                    <li><a href="#">Page2</a></li>
-                    <li><a href="#">Page3</a></li>
-                    
-                    <!-- end of word doc -->
+<!-- word doc said to add things here but not consitent with rest of vids -->
                     <li><a href="#">PROJECTS</a></li>
                     <li><a href="#">PUBLICATIONS</a></li>
                     <li><a href="#">CV</a></li>
